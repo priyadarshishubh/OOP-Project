@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewItem"
+    android:background="@drawable/back001"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/AddImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.00999999"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Add Image"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <ImageButton
+            android:id="@+id/addImagebtn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="64dp"
+            android:src="@drawable/addtocart" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <EditText
+            android:id="@+id/NameofProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:drawablePadding="10dp"
+            android:drawableStart="@color/black"
+            android:inputType="textCapSentences|textMultiLine"
+            android:hint="Item name"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            />
+        <EditText
+            android:id="@+id/DescOfproduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:drawablePadding="10dp"
+            android:drawableStart="@color/black"
+            android:inputType="text"
+            android:hint="Description of item"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_below="@id/NameofProduct"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/Quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/DescOfproduct"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:drawableStart="@color/black"
+            android:drawablePadding="10dp"
+            android:hint="Quantity"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/Category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:drawableEnd="@drawable/dropdownarrow"
+            android:drawablePadding="10dp"
+            android:text="Select Category"
+            android:textColor="@color/black"
+            android:textSize="2.75mm"
+            android:layout_below="@id/Quantity"
+            android:padding="10dp"/>
+        <Button
+            android:id="@+id/AddBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Category"
+            android:text="Add"
+            android:layout_margin="15dp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

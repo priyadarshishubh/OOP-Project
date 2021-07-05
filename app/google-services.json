@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "164340125726",
+    "firebase_url": "https://triggertracker-72647.firebaseio.com",
+    "project_id": "triggertracker-72647",
+    "storage_bucket": "triggertracker-72647.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:164340125726:android:d80d58e86afcff5c6c5e0f",
+        "android_client_info": {
+          "package_name": "com.example.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "164340125726-hgth2qcs664uf9p58dfiu5djtjlj1am9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjFkGBbwPUo5GJwkQOJXHAI9QbW4Ecjnk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "164340125726-hgth2qcs664uf9p58dfiu5djtjlj1am9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

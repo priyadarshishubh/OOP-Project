@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="1dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/itemIconTv"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/addtocart"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_toEndOf="@+id/itemIconTv">
+
+           <TextView
+               android:id="@+id/ItemNameTv"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Title"
+               android:textColor="@color/teal_200"
+               android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/categoryTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:textColor="@color/teal_200"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/QuantityTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 kg"
+                android:textColor="@color/teal_200"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:id="@+id/DescpritionTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desc"
+                android:textColor="@color/teal_200"
+                android:layout_marginTop="5dp"/>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/nextTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_next_primary"/>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
